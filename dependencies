@@ -1,0 +1,5 @@
+sudo apt-get install python-dev python3-dev python-pip python3-pip
+sudo pip install psutil
+sudo pip install netutils
+sudo apt-get install fonts-font-awesome
+sudo apt-get install fonts-powerline
