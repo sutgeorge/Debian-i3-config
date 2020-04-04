@@ -44,3 +44,13 @@ make
 sudo make install
 cp .bashrc ~/
 cp wallpapers/wallpaper.jpg ~/Pictures
+
+./pywal_dependencies
+sudo pip3 install pywal
+sudo apt-get install python3-setuptools
+git clone https://github.com/dylanaraps/pywal
+cd pywal
+pip3 install --user .
+export PATH="${PATH}:${HOME}/.local/bin/"
+
+wal -i ~/Pictures/wallpaper.jpg
