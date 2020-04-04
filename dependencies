@@ -17,6 +17,7 @@ sudo pip install netifaces
 sudo apt-get install fonts-font-awesome
 sudo apt-get install fonts-powerline
 sudo apt-get install compton
+sudo apt-get install libxcb-shape0-dev
 mkdir ~/.config/i3/
 sudo cp config ~/.config/i3
 sudo apt-get install vim
@@ -28,3 +29,17 @@ git clone https://github.com/LukeSmithxyz/st
 cd st
 sudo make install
 sudo apt-get install nitrogen
+sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake
+sudo apt-get install libxcb-xrm-dev
+cd tmp
+git clone https://www.github.com/Airblader/i3 i3-gaps
+cd i3-gaps
+git checkout gaps && git pull
+autoreconf --force --install
+rm -rf build
+mkdir build
+cd build
+../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+make
+sudo make install
+
