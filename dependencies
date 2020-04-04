@@ -18,12 +18,13 @@ sudo apt-get install fonts-font-awesome
 sudo apt-get install fonts-powerline
 sudo apt-get install compton
 mkdir ~/.config/i3/
-sudo mv config ~/.config/i3
+sudo cp config ~/.config/i3
 sudo apt-get install vim
-sudo mv .vimrc ~/
+sudo cp .vimrc ~/
 sudo apt-get install dmenu
 sudo apt-get install libx11*
 sudo apt-get install libxft*
 git clone https://github.com/LukeSmithxyz/st
 cd st
 sudo make install
+sudo apt-get install nitrogen
