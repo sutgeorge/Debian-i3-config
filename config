@@ -169,7 +169,7 @@ bar {
 	font pango:Inconsolata 9
 	position top
 	tray_output none
-	status_command ~/bumblebee-status/bumblebee-status -m publicip nic cpu memory sensors battery date time -p nic.states="^down" -t iceberg-dark-powerline
+	status_command ~/bumblebee-status/bumblebee-status -m nic cpu memory sensors battery date time -p nic.states="^down" -t iceberg-dark-powerline
 }
 
 # Pulse Audio controls

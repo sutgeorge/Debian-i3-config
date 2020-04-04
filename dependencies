@@ -13,6 +13,7 @@ sudo pip install pytz
 sudo pip install localtz
 sudo pip install pactl
 sudo pip install nvidia-smi
+sudo pip install netifaces
 sudo apt-get install fonts-font-awesome
 sudo apt-get install fonts-powerline
 sudo apt-get install compton
