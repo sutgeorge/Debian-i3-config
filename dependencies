@@ -42,4 +42,5 @@ cd build
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
 make
 sudo make install
-
+cp .bashrc ~/
+cp wallpapers/wallpaper.jpg ~/Pictures
