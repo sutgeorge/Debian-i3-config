@@ -44,6 +44,7 @@ make
 sudo make install
 cp .bashrc ~/
 cp wallpapers/wallpaper.jpg ~/Pictures
+sudo apt install feh
 
 ./pywal_dependencies
 sudo pip3 install pywal
