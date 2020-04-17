@@ -125,7 +125,7 @@ xterm*|rxvt*)
     ;;
 esac
 
-feh --bg-scale /home/calandrinon/Pictures/wallpaper.jpg
+feh --bg-scale ~/Pictures/wallpaper.jpg
 
 if [ ! -f "/tmp/wal_set" ]; then
 	touch wal_set
