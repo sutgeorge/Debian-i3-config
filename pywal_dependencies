@@ -1,1 +1,1 @@
-sudo apt-get install imagemagick pidof xfce gnome cinnamon mate feh nitrogen bgs hsetroot habak display
+sudo apt-get -y install imagemagick pidof xfce gnome cinnamon mate feh nitrogen bgs hsetroot habak display

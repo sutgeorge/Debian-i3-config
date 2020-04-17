@@ -1,8 +1,8 @@
 sudo apt-get update
-sudo apt-get install i3
+sudo apt-get -y install i3
 git clone https://github.com/tobi-wan-kenobi/bumblebee-status
 mv bumblebee-status ~
-sudo apt-get install python-dev python3-dev python-pip python3-pip
+sudo apt-get -y install python-dev python3-dev python-pip python3-pip
 sudo pip install setuptools
 sudo pip install wheel
 sudo pip install psutil
@@ -14,23 +14,23 @@ sudo pip install localtz
 sudo pip install pactl
 sudo pip install nvidia-smi
 sudo pip install netifaces
-sudo apt-get install fonts-font-awesome
-sudo apt-get install fonts-powerline
-sudo apt-get install compton
-sudo apt-get install libxcb-shape0-dev
+sudo apt-get -y install fonts-font-awesome
+sudo apt-get -y install fonts-powerline
+sudo apt-get -y install compton
+sudo apt-get -y install libxcb-shape0-dev
 mkdir ~/.config/i3/
 sudo cp config ~/.config/i3
-sudo apt-get install vim
+sudo apt-get -y install vim
 sudo cp .vimrc ~/
-sudo apt-get install dmenu
-sudo apt-get install libx11*
-sudo apt-get install libxft*
+sudo apt-get -y install dmenu
+sudo apt-get -y install libx11*
+sudo apt-get -y install libxft*
 git clone https://github.com/LukeSmithxyz/st
 cd st
 sudo make install
-sudo apt-get install nitrogen
-sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake
-sudo apt-get install libxcb-xrm-dev
+sudo apt-get -y install nitrogen
+sudo apt -y install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake
+sudo apt-get -y install libxcb-xrm-dev
 cd tmp
 git clone https://www.github.com/Airblader/i3 i3-gaps
 cd i3-gaps
@@ -44,11 +44,11 @@ make
 sudo make install
 cp .bashrc ~/
 cp wallpapers/wallpaper.jpg ~/Pictures
-sudo apt install feh
+sudo apt -y install feh
 
 ./pywal_dependencies
 sudo pip3 install pywal
-sudo apt-get install python3-setuptools
+sudo apt-get -y install python3-setuptools
 git clone https://github.com/dylanaraps/pywal
 cd pywal
 pip3 install --user .
