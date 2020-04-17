@@ -1,7 +1,7 @@
 sudo apt-get update
 sudo apt-get -y install i3
 git clone https://github.com/tobi-wan-kenobi/bumblebee-status
-mv bumblebee-status ~
+sudo mv bumblebee-status ~
 sudo apt-get -y install python-dev python3-dev python-pip python3-pip
 sudo pip install setuptools
 sudo pip install wheel
@@ -19,9 +19,9 @@ sudo apt-get -y install fonts-powerline
 sudo apt-get -y install compton
 sudo apt-get -y install libxcb-shape0-dev
 mkdir ~/.config/i3/
-sudo cp config ~/.config/i3
+sudo mv config ~/.config/i3
 sudo apt-get -y install vim
-sudo cp .vimrc ~/
+sudo mv .vimrc ~/
 sudo apt-get -y install dmenu
 sudo apt-get -y install libx11*
 sudo apt-get -y install libxft*
@@ -42,8 +42,8 @@ cd build
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
 make
 sudo make install
-cp .bashrc ~/
-cp wallpapers/wallpaper.jpg ~/Pictures
+sudo mv .bashrc ~/
+sudo mv wallpapers/wallpaper.jpg ~/Pictures
 sudo apt -y install feh
 
 ./pywal_dependencies
@@ -51,7 +51,7 @@ sudo pip3 install pywal
 sudo apt-get -y install python3-setuptools
 git clone https://github.com/dylanaraps/pywal
 cd pywal
-pip3 install --user .
-export PATH="${PATH}:${HOME}/.local/bin/"
+sudo pip3 install --user .
+sudo export PATH="${PATH}:${HOME}/.local/bin/"
 
-wal -i ~/Pictures/wallpaper.jpg
+sudo wal -i ~/Pictures/wallpaper.jpg
