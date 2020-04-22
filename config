@@ -194,3 +194,9 @@ exec --no-startup-id compton
 for_window [class=".*"] border pixel 2
 gaps inner 10
 gaps outer 10
+
+
+#interactive screenshot by pressing printscreen
+bindsym Print exec gnome-screenshot -i 
+#crop-area screenshot by pressing Mod + printscreen
+bindsym $mod+Print exec gnome-screenshot -a
