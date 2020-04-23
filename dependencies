@@ -16,6 +16,7 @@ sudo pip install localtz
 sudo pip install pactl
 sudo pip install nvidia-smi
 sudo pip install netifaces
+sudo apt -y install lm-sensors
 sudo apt-get -y install fonts-font-awesome
 sudo apt-get -y install fonts-powerline
 sudo apt-get -y install compton
