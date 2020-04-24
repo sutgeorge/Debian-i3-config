@@ -56,4 +56,4 @@ sudo pip3 install --user .
 sudo export PATH="${PATH}:${HOME}/.local/bin/"
 
 sudo wal -i ~/Pictures/wallpaper.jpg
-sudp apt install gnome-screenshot
+sudo apt install gnome-screenshot

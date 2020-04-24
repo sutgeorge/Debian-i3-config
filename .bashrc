@@ -130,5 +130,5 @@ feh --bg-scale ~/Pictures/wallpaper.jpg
 if [ ! -f "/tmp/wal_set" ]; then
 	touch wal_set
 	mv wal_set /tmp
-	wal -i ~/Pictures/wallpaper.jpg
+	sudo wal -i ~/Pictures/wallpaper.jpg
 fi
