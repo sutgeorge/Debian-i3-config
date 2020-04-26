@@ -41,3 +41,5 @@ syntax on
 set number
 set tabstop=4
 set laststatus=2
+
+map <F8> :w <CR> :!gcc *.c -o run && ./run
