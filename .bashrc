@@ -130,7 +130,7 @@ feh --bg-scale ~/Pictures/wallpaper.jpg
 if [ ! -f "/tmp/wal_set" ]; then
 	touch wal_set
 	mv wal_set /tmp
-	sudo wal -i ~/Pictures/wallpaper.jpg
+	~/.local/bin/wal -i ~/Pictures/wallpaper.jpg
 fi
 
-export PATH="${PATH}:${HOME}/.local/bin/"
+export PATH="$PATH:/home/calandrinon/.local/bin/"
