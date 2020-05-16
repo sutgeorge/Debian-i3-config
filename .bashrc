@@ -132,3 +132,5 @@ if [ ! -f "/tmp/wal_set" ]; then
 	mv wal_set /tmp
 	sudo wal -i ~/Pictures/wallpaper.jpg
 fi
+
+export PATH="${PATH}:${HOME}/.local/bin/"

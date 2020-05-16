@@ -3,7 +3,7 @@ sudo cp wallpapers/wallpaper.jpg ~/Pictures
 sudo cp config ~/.config/i3
 sudo cp .vimrc ~/
 sudo apt-get update
-sudo apt-get -y install i3
+sudo apt-get -y install i3*
 git clone https://github.com/tobi-wan-kenobi/bumblebee-status
 sudo mv bumblebee-status ~
 sudo apt-get -y install python-dev python3-dev python-pip python3-pip
