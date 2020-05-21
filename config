@@ -183,7 +183,8 @@ bar {
 	font pango:Inconsolata 10
 	position top
 	tray_output none
-	status_command ~/bumblebee-status/bumblebee-status -m spotify nic cpu memory sensors battery date time -p nic.states="^down" -t wal-powerline
+	status_command ~/bumblebee-status/bumblebee-status -m spotify nic cpu memory sensors pasink battery date time -p nic.states="^down" -t wal-powerline
+	
 }
 
 # Pulse Audio controls
