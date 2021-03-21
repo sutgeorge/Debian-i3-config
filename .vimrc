@@ -10,6 +10,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" A Vim Plugin for Lively Previewing LaTeX PDF Output
+Plugin 'xuhdev/vim-latex-live-preview'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -43,3 +46,5 @@ set tabstop=4
 set laststatus=2
 
 map <F8> :w <CR> :!gcc *.c -o run && ./run
+
+let g:livepreview_previewer = 'zathura'
